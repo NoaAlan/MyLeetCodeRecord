@@ -37,14 +37,14 @@ var letterCombinations = function (digits) {
 function getStringWithFor(s, i, res, temp) {
 	if (i < s.length - 1) {
 		for (let j = 0; j < s[i].length; j++) {
-			res = getStringWithFor(s, i + 1, res, temp + s[i].charAt(j))
+			res = getStringWithFor(s, i + 1, res, temp + s[i][j])
 		}
 	} else {
 		for (let j = 0; j < s[i].length; j++) {
-			res.push(temp + s[i].charAt(j))
+			res.push(temp + s[i][j])
 		}
 	}
 	return res
 }
 
-console.log(letterCombinations('2'))
+console.log(letterCombinations('234'))

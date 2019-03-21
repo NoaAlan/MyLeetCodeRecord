@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c704a3f-c708-4137-b764-3b3413c3dbaa" name="Default Changelist" comment="" />
+    <list default="true" id="1c704a3f-c708-4137-b764-3b3413c3dbaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/20. ValidParentheses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/22. GenerateParentheses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17. LetterCombinationsOfAPhoneNumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/17. LetterCombinationsOfAPhoneNumber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.AddTwoNumbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/2. AddTwoNumbers.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,20 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/15. 3Sum.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/17. LetterCombinationsOfAPhoneNumber.js">
+        <entry file="file://$PROJECT_DIR$/22. GenerateParentheses.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="492">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -73,6 +70,10 @@
         <option value="$PROJECT_DIR$/14. LongestCommonPrefix.js" />
         <option value="$PROJECT_DIR$/15. 3Sum.js" />
         <option value="$PROJECT_DIR$/17. LetterCombinationsOfAPhoneNumber.js" />
+        <option value="$PROJECT_DIR$/20.ValidParentheses.js" />
+        <option value="$PROJECT_DIR$/20. ValidParentheses.js" />
+        <option value="$PROJECT_DIR$/22. GenerateParentheses.js" />
+        <option value="$PROJECT_DIR$/1.txt" />
       </list>
     </option>
   </component>
@@ -83,8 +84,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="507" />
-    <option name="y" value="7" />
+    <option name="x" value="-521" />
+    <option name="y" value="16" />
     <option name="width" value="1935" />
     <option name="height" value="1038" />
   </component>
@@ -132,10 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.17. LetterCombinationsOfAPhoneNumber.js">
-    <configuration name="11. ContainerWithMostWater.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/11. ContainerWithMostWater.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.22. GenerateParentheses.js">
     <configuration name="13. RomantoInteger.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/13. RomantoInteger.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -148,13 +146,19 @@
     <configuration name="17. LetterCombinationsOfAPhoneNumber.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/17. LetterCombinationsOfAPhoneNumber.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="20. ValidParentheses.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/20. ValidParentheses.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="22. GenerateParentheses.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/22. GenerateParentheses.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.22. GenerateParentheses.js" />
         <item itemvalue="Node.js.17. LetterCombinationsOfAPhoneNumber.js" />
         <item itemvalue="Node.js.15. 3Sum.js" />
         <item itemvalue="Node.js.14. LongestCommonPrefix.js" />
         <item itemvalue="Node.js.13. RomantoInteger.js" />
-        <item itemvalue="Node.js.11. ContainerWithMostWater.js" />
       </list>
     </recent_temporary>
   </component>
@@ -173,20 +177,21 @@
       <workItem from="1552964494272" duration="46000" />
       <workItem from="1552965756965" duration="12568000" />
       <workItem from="1553045805745" duration="8253000" />
-      <workItem from="1553130536552" duration="780000" />
+      <workItem from="1553130536552" duration="11686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37668000" />
+    <option name="totallyTimeSpent" value="48574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23712446" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3293556" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3293556" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -215,7 +220,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.AddTwoNumbers.js">
+    <entry file="file://$PROJECT_DIR$/2. AddTwoNumbers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" selection-start-column="17" selection-end-column="17" />
@@ -271,17 +276,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/15. 3Sum.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="567">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/17. LetterCombinationsOfAPhoneNumber.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="438">
+          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15. 3Sum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20. ValidParentheses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22. GenerateParentheses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
